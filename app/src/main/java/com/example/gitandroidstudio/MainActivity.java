@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Log.i("MyTag", "Message");
+        Log.i("MyTag", "Message");
 
     }
 }
