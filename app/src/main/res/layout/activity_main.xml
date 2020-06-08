@@ -7,12 +7,50 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/txtHelloWorld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#DC2626"
         android:text="Hello World!"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHiWorld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DC2626"
+        android:text="Hi World!"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0"/>
+
+    <ImageView
+        android:id="@+id/imgLeopard"
+        android:layout_width="237dp"
+        android:layout_height="259dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtHelloWorld"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/leopard" />
+
+    <ImageView
+        android:id="@+id/imgLion"
+        android:layout_width="237dp"
+        android:layout_height="259dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtHelloWorld"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lion" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
